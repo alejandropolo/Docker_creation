@@ -1,9 +1,0 @@
-version: '3'
-services:
-    redis-server:
-       build: ./ip/
-    node-app:
-       build: .
-       ports:
-         - "80:80"
- 
